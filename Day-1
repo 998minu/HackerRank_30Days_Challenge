@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+
+
+public class DataType {
+
+    public static void main(String[] args) {
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+        
+        Scanner scan = new Scanner(System.in);
+        int in;
+        double db;
+        String str;
+
+        in = scan.nextInt();
+        db = scan.nextDouble();
+        
+        scan.nextLine();
+        str = scan.nextLine();
+
+        System.out.println(i+in);
+
+        System.out.println(d+db);
+        
+        System.out.println(s.concat(str));
+    }
+}
