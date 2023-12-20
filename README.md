@@ -1,1 +1,1 @@
-# HackerRank_Day-1
+# HackerRank
