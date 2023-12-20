@@ -1,7 +1,15 @@
+Day 1 of #30daysofcodechallenge!
+Task: DataTypes ✅
+Declare Variables: Create three variables - one as an integer, one as a double, and one as a string.
+Read Input: Obtain input for the declared variables from the user, following the specified sequence in the Input Format section.
+Perform Operations: Utilize the "+" operator for the following tasks:
+Print the sum of 4 plus your integer variable on a new line.
+Print the sum of 4.0 plus your double variable, rounded to one decimal place, on a new line.
+Concatenate the string you read as input with "HackerRank" and print the result on a new line.
+
+Source Code:
 import java.io.*;
 import java.util.*;
-
-
 public class DataType {
 
     public static void main(String[] args) {
