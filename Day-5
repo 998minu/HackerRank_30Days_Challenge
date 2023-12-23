@@ -1,0 +1,25 @@
+🚀 Day 5 of hashtag
+#30daysofcodechallenge !! 🚀
+Task: Loops
+problem: Given an integer, print its first multiples. Each multiple  (where ) should be printed on a new line in the form: n x i = result.
+Input Format
+A single integer, 
+Constraints
+Output Format
+Print  lines of output; each line  (where ) contains the  of  in the form:
+n x i = result.
+
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i=1;i<11;i++){
+            System.out.println(n + " x " + i + " = " + n*i);
+        }
+    }
+}
